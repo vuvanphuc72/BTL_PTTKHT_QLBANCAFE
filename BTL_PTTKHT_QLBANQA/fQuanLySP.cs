@@ -61,8 +61,8 @@ namespace BTL_PTTKHT_QLBANQA
 
         void addFoodBinding()
         {
-            txtTenDU.DataBindings.Add(new Binding("Text", dtgvDoUong.DataSource, "maDU", true, DataSourceUpdateMode.Never));
-            txtMaDU.DataBindings.Add(new Binding("Text", dtgvDoUong.DataSource, "tenDU", true, DataSourceUpdateMode.Never));
+            txtTenDU.DataBindings.Add(new Binding("Text", dtgvDoUong.DataSource, "tenDU", true, DataSourceUpdateMode.Never));
+            txtMaDU.DataBindings.Add(new Binding("Text", dtgvDoUong.DataSource, "maDU", true, DataSourceUpdateMode.Never));
             nuGiaTien.DataBindings.Add(new Binding("Value", dtgvDoUong.DataSource, "gia", true, DataSourceUpdateMode.Never));
             txtMaDMforDU.DataBindings.Add(new Binding("Text", dtgvDoUong.DataSource, "maDM", true, DataSourceUpdateMode.Never));
         }
